@@ -1,4 +1,4 @@
-cask 'zulufx8' do
+cask 'zulufx11' do
   version '11.0.7,11.39.15-ca-fx'
   sha256 '45c586ce93972f79be923bd17fc16d0f1b3664ef0edba86b948334e5c502c0f8'
 
