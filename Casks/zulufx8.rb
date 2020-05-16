@@ -13,6 +13,6 @@ cask 'zulufx8' do
   artifact "zulu#{version.after_comma}-jdk#{version.before_comma}-macosx_x64/zulu-8.jdk", target: "/Library/Java/JavaVirtualMachines/zulufx8.jdk"
 
   postflight do
-    system_command 'ls', args: ['-al', '/Library/Java/JavaVirtualMachines/'], print_stdout: true
+    system_command '/usr/libexec/java_home', args: ['--version'], print_stdout: true
   end
 end
