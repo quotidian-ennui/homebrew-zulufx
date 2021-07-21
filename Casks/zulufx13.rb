@@ -1,6 +1,6 @@
 cask 'zulufx13' do
-  version '13.0.6,13.37.21-ca-fx'
-  sha256 '447ad93d5d5587f1e5581b51c7ae821f1d2de19a13a0e0f63b38b83e4a81bb34'
+  version '13.0.7,13.40.15-ca-fx'
+  sha256 'b161e6ae6f352e50eba5c31a50a7079b2f25fb8e9b303454dc3182ab671dc102'
 
   url "https://cdn.azul.com/zulu/bin/zulu#{version.after_comma}-jdk#{version.before_comma}-macosx_x64.zip",
       referer: 'https://www.azul.com/downloads/zulu/zulu-mac/'
